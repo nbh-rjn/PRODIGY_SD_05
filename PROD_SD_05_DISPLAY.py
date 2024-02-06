@@ -63,7 +63,7 @@ def main():
     root.geometry("850x350")
     root.title("Web Scraper Display")
 
-    background_image = tk.PhotoImage(file="images/task4_image.png")
+    background_image = tk.PhotoImage(file="task4_image.png")
     background_label = tk.Label(root, image=background_image)
     background_label.place(relwidth=1, relheight=1)
 
